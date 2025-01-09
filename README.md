@@ -16,3 +16,33 @@ Bu projeyi çalıştırabilmek için aşağıdaki adımları takip edebilirsiniz
 - `opencv-python`
 - `matplotlib`
 - `ultralytics`
+
+
+
+
+
+
+
+# Tree Species Classification and Detection Project
+
+This project is developed to detect tree species using the **YOLOv8** (You Only Look Once) deep learning model. Users can upload images of different tree species, and the model will accurately classify the tree species in the images, visualizing them with bounding boxes. The model also provides the predicted species names and confidence scores.
+
+## Features:
+- **Tree Species Detection:** The trained model detects tree species (such as oak, pine, etc.) in images accurately.
+- **YOLOv8 Usage:** The model is trained with the **YOLOv8** (You Only Look Once) object detection algorithm, which performs fast and accurate object detection.
+- **Results Visualization:** Detected tree species and their confidence scores are displayed on the image, and the results are saved.
+- **Python and OpenCV Usage:** The project is developed using Python programming language and OpenCV library.
+
+## Installation:
+To run this project, follow the steps below.
+
+### Required Libraries:
+- `torch`
+- `opencv-python`
+- `matplotlib`
+- `ultralytics`
+
+You can install the required libraries using the following command:
+```bash
+pip install torch opencv-python matplotlib ultralytics
+
